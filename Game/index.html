@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="front.css">
+    </head> 
+<title>Try not to be amazed.</title>
+<body bgcolor="grey">
+    <!-- Bot interface -->
+
+    <div class="middle">
+        <button  id="botScissor">
+            <img src="./Assets/scissor.jpg">
+        </button>
+        <button  id="botStone">
+            <img src="./Assets/stone.jpg">
+        </button>
+        <button id="botPaper">
+            <img src="./Assets/paper.jpg">
+        </button>
+    </div>
+
+    <div class="middle">
+        <button onclick="start()">Start and click on any button below to play.</button>
+        <input type="text" id="display">
+    </div>
+
+    <!-- User interface -->
+    <div class="middle">
+        <button onclick="action(1)"   id="pScissor">
+            <img src="./Assets/scissor.jpg">
+        </button>
+        <button onclick="action(2)"   id="pStone">
+            <img src="./Assets/stone.jpg">
+        </button>
+        <button onclick="action(3)"   id="pPaper">
+            <img src="./Assets/paper.jpg">
+        </button>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

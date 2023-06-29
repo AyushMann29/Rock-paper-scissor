@@ -1,0 +1,19 @@
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  width:150px;
+  height:150px;
+  background-color: black;
+}
+
+img{
+  width: 140px;
+  height: 140px;
+}
+button:hover{
+  background-color: green;
+}
