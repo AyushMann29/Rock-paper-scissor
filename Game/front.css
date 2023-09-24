@@ -7,13 +7,24 @@
 button{
   width:150px;
   height:150px;
-  background-color: black;
+  background-color: green;
+  padding-left: 10px;
+}
+
+.bot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bot:hover{
+  background-color: green;
 }
 
 img{
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
 }
 button:hover{
-  background-color: green;
+  background-color: darkgreen;
 }
